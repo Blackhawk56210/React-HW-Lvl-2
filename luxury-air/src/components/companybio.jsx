@@ -38,7 +38,7 @@ function Bio() {
             </p>
           </div>
           <div className="m-5 w-1/2">
-            <ImageCarousel images={images} />
+            <ImageCarousel images={images} showHover = {false} />
           </div>
         </div>
       </div>

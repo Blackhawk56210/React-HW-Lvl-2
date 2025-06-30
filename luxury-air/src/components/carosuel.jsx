@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const ImageCarousel = ({ images, interval = 5000 }) => {
+const ImageCarousel = ({ images, showHover, interval = 5000 }) => {
   const [current, setCurrent] = useState(0);
 
   const nextSlide = () => {
@@ -25,16 +25,16 @@ const ImageCarousel = ({ images, interval = 5000 }) => {
       <img
         src={images[current]}
         alt={`Slide ${current}`}
-          className="w-full h-100 object-cover transition duration-700 ease-in-out"
+          className={`w-full h-100 object-fit ${showHover ? "hover:blur-xs" : "hover:none"}`}
         />
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black bg-opacity-50 opacity-25 text-white px-2 py-1 rounded-full cursor-pointer">
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black bg-opacity-50 opacity-25 text-white px-2 py-3 rounded-full cursor-pointer">
         ❮
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-50 opacity-25 text-white px-2 py-1 rounded-full cursor-pointer">
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-50 opacity-25 text-white px-2 py-3 rounded-full cursor-pointer">
         ❯
       </button>
 
