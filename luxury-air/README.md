@@ -1,3 +1,25 @@
+### -~-Primary tasks-~- 🧑‍💼
+## get tailwind to work ✅
+## make 3 different sections ✅
+## add video with grayed background maybe ✅
+## add black top header or at least logo ✅
+## changed style to have 3 links leading to different sections --( small article explaining company ✅)
+## 3rd section should be for sale planes or heli's ✅
+## Flesh out NavBar styling ✅
+## Inventory Page- 🔀(in progress)
+### -Styling ✔️(base theme decided)
+### -Modals for individual planes 
+  ## -- might not do may rethink ide of page
+ 
+
+## -~- alternative but not important -~-
+  # ~~ make a graph showing price of vehicle as well as prices for gas
+  # ~~ maybe add carousel for top selling/ newer models ✅
+  # ~~ maybe do an actual checkout??
+  # ~~ make dynamic for phones~~
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -9,6 +9,15 @@ WHEN STARTING A NEW REACT PROJECT:
 ## run: npm install
 ## run: npm run dev 
 
+## To check current version 
+## (node version manager) nvm -v
+## npm -v
+## node -v
+
+## To update 
+## nvm install or nvm upgrade
+## nvm install node, node -v 
+
 Initialize a new React app using npm create vite@latest inside of the homework directory
 
 cd into the new directory
