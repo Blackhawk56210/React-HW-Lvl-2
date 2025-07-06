@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const ImageCarousel = ({ images, showHover, interval = 5000 }) => {
   const [current, setCurrent] = useState(0);

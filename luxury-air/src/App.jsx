@@ -1,10 +1,9 @@
-import { useState } from "react";
 import "./App.css";
 import Home from "./pages/home.jsx";
 import Inventory from './pages/Inventory.jsx'
 import { Routes, Route } from "react-router-dom";
-import NavBar from './components/navbar';
-import Footer from './components/footer.jsx'
+import NavBar from './components/footer-header/navbar';
+import Footer from './components/footer-header/footer.jsx'
 import Support from './pages/support.jsx'
 
 function App() {

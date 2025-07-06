@@ -1,6 +1,6 @@
-import Banner from '../components/banner';
-import New from '../components/newInventory'
-import Bio from '../components/companybio'
+import Banner from '../components/main-page/banner.jsx';
+import New from '../components/main-page/newInventory'
+import Bio from '../components/main-page/CompanyBio.jsx'
 import CompanySection from '../components/contact'
 
 export default function Home() {

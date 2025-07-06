@@ -1,4 +1,4 @@
-import ImageCarousel from "./carosuel";
+import ImageCarousel from "../carosuel";
 
 const images = [
   "https://st.depositphotos.com/1037987/4845/i/450/depositphotos_48459381-stock-photo-portrait-of-multi-cultural-office.jpg",

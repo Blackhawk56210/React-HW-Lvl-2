@@ -1,6 +1,6 @@
-import Logo from "../assets/images/logo-white.png";
+import Logo from "../../assets/images/logo-white.png";
 
-function footer() {
+function Footer() {
   return (
     <div className="text-white p-10">
       <section className="flex justify-center">
@@ -11,7 +11,7 @@ function footer() {
           <div className="mr-5">
             <div className="opacity-75 pb-5">Call</div>
             <div className="body-caps">
-              <a href="tel: +1 850 9-12345678">+1 (850) 9-CHRISAIR</a>
+              <a href="tel:+1850912345678">+1 (850) 9-CHRISAIR</a>
             </div>
           </div>
           <div className="border-1 w-0 h-40 opacity-85"></div>
@@ -25,7 +25,7 @@ function footer() {
                       General Inquiries
                     </div>
                     <div className="body-bold mb-2">
-                      <a href="email">ChrisAir@chrisair.com</a>
+                      <a href="mailto:ChrisAir@chrisair.com">ChrisAir@chrisair.com</a>
                     </div>
                   </div>
                 </li>
@@ -35,7 +35,7 @@ function footer() {
                       Marketing & Collaborations
                     </div>
                     <div className="body-bold">
-                      <a href="email">ChrisAir@apple.com</a>
+                      <a href="mailto:ChrisAir@apple.com">ChrisAir@apple.com</a>
                     </div>
                   </div>
                 </li>
@@ -46,28 +46,28 @@ function footer() {
           <div>
             <p className="opacity-75 pb-5">Socials</p>
             <div className="flex flex-row pl-4">
-              <a href="tiktok">
+              <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/6761b8127be8a1dfe57738b5_tiktok.svg"
                   loading="lazy"
                   className="invert w-4 mr-2"
                 />
               </a>
-              <a href="linkedIn">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/6761b82934c945ef8749d427_linkedin-in.svg"
                   loading="lazy"
                   className="invert w-4 mr-2"
                 />
               </a>
-              <a href="Instagram">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/6761b83b63af49d9e80726ae_instagram.svg"
                   loading="lazy"
                   className="invert w-4 mr-2"
                 />
               </a>
-              <a href="twitter">
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/6761b86d767a974557d32270_x-twitter-brands-solid.svg"
                   loading="lazy"
@@ -103,12 +103,12 @@ function footer() {
           about your rights <a href="legal stuff ">here</a>.
         </p>
         <div className="inline-block p-3 w-full">
-          <a href="apple">
+          <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/66241a17c99be7ddc820a229_apple.avif" 
             loading="lazy"
             className="inline-block h-15 p-2"/>
           </a>
-          <a href="google">
+          <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/66241a17885ec39e1d213810_google.avif" 
             loading="lazy"
             className="inline-block h-15 p-2"/>
@@ -119,4 +119,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

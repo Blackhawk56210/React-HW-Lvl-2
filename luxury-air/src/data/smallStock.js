@@ -24,9 +24,9 @@ const smallStock = [
     ],
   },
   {
-      title: "",
-      text: ,
-      linkText: ,
+      title: "Plane",
+      text: "placeholder",
+      linkText: "",
       // // make this modal showing the details  linkHref: https://businessjets.boeing.com/787/,
       images: [
         "",

@@ -9,7 +9,7 @@
 ## Inventory Page- 🔀(in progress)
 ### -Styling ✔️(base theme decided)
 ### -Modals for individual planes 
-  ## -- might not do may rethink ide of page
+  ## -- Redesign inventory cards for smallInventory.js along with a seperate image carousel so it fits into smaller card with a seperate component
  
 
 ## -~- alternative but not important -~-
