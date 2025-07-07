@@ -1,6 +1,6 @@
 import React from 'react'
 
-const smallStock = [
+const sStock = [
   {
     title: "Gulfstream G700",
     text: "The pinnacle of private air travel luxury with 7,500 nautical miles of range.",
@@ -34,6 +34,7 @@ const smallStock = [
   }
   // Add more cards here
 ];
+
 console.log("being called")
 
-export default smallStock
+export default sStock

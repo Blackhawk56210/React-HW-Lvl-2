@@ -10,7 +10,7 @@
 ### -Styling ✔️(base theme decided)
 ### -Modals for individual planes 
   ## -- Redesign inventory cards for smallInventory.js along with a seperate image carousel so it fits into smaller card with a seperate component
- 
+## Work on functionality for smaller screens
 
 ## -~- alternative but not important -~-
   # ~~ make a graph showing price of vehicle as well as prices for gas

@@ -1,12 +1,13 @@
+import Accordion from "../components/accordion.jsx";
 
-function support() {
+function Support() {
   return (
-    <div>
-        <div>
-            <h1>Support</h1>
-        </div>
+    <div className="m-4 h-full">
+      <div className="grid grid-cols-1 justify-center h-full">
+        <Accordion />
+      </div>
     </div>
   )
 }
 
-export default support
+export default Support;

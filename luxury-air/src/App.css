@@ -4,3 +4,6 @@
   text-align: center;
   background-color: black;
 }
+.App, html, body {
+  height: 100%;
+}

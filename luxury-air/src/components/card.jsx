@@ -8,6 +8,7 @@ function Card({ title, text, images, linkText, linkHref }) {
       <div className="p-4">
         <h5 className="text-lg font-semibold mb-2">{title}</h5>
         <p className="mb-4">{text}</p>
+        <p className="mb-4">{size}</p>
         <a
           href={linkHref}
           className="inline-block px-4 py-2 bg-amber-600 text-white rounded hover:bg-amber-700 transition">

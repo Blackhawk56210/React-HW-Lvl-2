@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="text-white border-b w-full bg-black h-20 fixed top-0 left-0 z-50">
-      <nav className="flex items-center justify-between px-6 h-full">
+    <div className="text-white border-b w-full bg-black h-20 sticky">
+      <nav className="flex items-center justify-between px-6 h-full ">
         {/* Left Links */}
         <div className="flex gap-8">
           <NavLink to="/" className="hover:text-gray-300">
