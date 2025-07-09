@@ -1,40 +1,47 @@
-import React from 'react'
+import React from "react";
 
 const sStock = [
   {
-    title: "Gulfstream G700",
-    text: "The pinnacle of private air travel luxury with 7,500 nautical miles of range.",
-    linkText: "Details",
-    linkHref: "/inventory/g700",
+    title: "HondaJet Elite II",
+    size: "Small",
+    seats: '4 - 6',
+    range: "~1,200–1,500 nm",
+    linkText: "BOOK",
+    text: "A refined balance of innovation and elegance. The Elite II offers whisper-quiet performance and sleek wing-mounted engines, perfect for quick escapes in ultimate comfort.",
     images: [
-      "https://www.ainonline.com/cdn-cgi/image/width=3840,format=webp,quality=95/https://backend.ainonline.com/sites/default/files/styles/fpsc_1200x630/public/uploads/2023/05/5dwm1964web.jpg?h=95ffb99b&itok=bdA5a1Dz",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiVecuBZhJwr3bAIHNy6DRekqj8S-omrSx1A&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL3JhbE1FEXEziBhYcR6c77iHwWG_iZrF3hQ&s"
+      "https://i.imgur.com/VSm9Vzn.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3fxeW3N2gegnvRckxlio4PIwisJ16zD2_bVoge0uwJ6I2bL4q57JDPf5FDMD6zp8FKl8&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIV3Ob13lWP0LaSs99GaW2qGJOnZeREmX4IA&s",
     ],
   },
   {
-    title: "Bombardier Global 7500",
-    text: "Smooth rides, luxury interiors, and impressive range make this jet a top pick.",
-    linkText: "Details",
-    linkHref: "/inventory/global7500",
+    title: "Embraer Phenom 100EV",
+    size: "Small",
+    seats: '4 - 6',
+    range: "~1,200–1,500 nm",
+    linkText: "BOOK",
+    text: "A bold entry into private aviation, the Phenom 100EV features a meticulously crafted interior and state-of-the-art cockpit — delivering business-class luxury on a personal scale.",
     images: [
-      "https://i.ytimg.com/vi/rxE2EBFRqDA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEggYShlMA8=&rs=AOn4CLCwBq_Vcch41UMbC5pB_s4tarrQpQ",
-      "https://www.vistajet.com/globalassets/media-gallery/cabin/vistajet-global-7500-cabin.jpg?width=2560&mode=stretch",
-      "https://i.pinimg.com/originals/ec/dd/16/ecdd16e1a12f3a2955c033c4ef3c2b8a.jpg",    
+      "https://www.jetaviva.com/wp-content/uploads/2023/09/JP-10-2048x1366.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVZ0TjBdLMGJ6AmJJe3ZgGYxwU0n3QoOYWaA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx0-MU6-MFh40J_wjeEcPjavm6eZP1ENBLtg&s",
     ],
   },
   {
-      title: "Plane",
-      text: "placeholder",
-      linkText: "",
-      // // make this modal showing the details  linkHref: https://businessjets.boeing.com/787/,
-      images: [
-        "",
-    ]
-  }
-  // Add more cards here
+    title: "Cessna Citation M2 Gen2",
+    size: "Small",
+    seats: '5 - 7',
+    range: "~1,200–1,500 nm",
+    linkText: "BOOK",
+    text: "Smart, stylish, and supremely agile — the M2 Gen2 blends modern aesthetics with advanced tech for a seamless, elevated flying experience.",
+    images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlIhbY5s5lFBV_UDImm4UQKb8fmnPPA9cT7A&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQlZtW8FIzp-kQ9kq8fo6jUbQ_H28wfs7jCg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xBsNqRpwX4VjszDhjr5azJXlJVLCgwSgEg&s",
+    ],
+  },
 ];
 
-console.log("being called")
+console.log("being called");
 
-export default sStock
+export default sStock;

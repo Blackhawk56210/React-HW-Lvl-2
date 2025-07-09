@@ -20,7 +20,7 @@ function NavBar() {
         {/* Right Link */}
         <div>
             <a href="tel: +1 850 9-12345678" className="p-2">+1 (850) 9-CHRISAIR</a>
-          <NavLink to="/" className="hover:bg-gray-500 border text-black rounded-l p-2 bg-white">
+          <NavLink to="/inventory" className="hover:bg-gray-500 border text-black rounded-l p-2 bg-white">
             Book Charter
           </NavLink>
         </div>

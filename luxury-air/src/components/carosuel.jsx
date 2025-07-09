@@ -25,7 +25,7 @@ const ImageCarousel = ({ images, showHover, interval = 5000 }) => {
       <img
         src={images[current]}
         alt={`Slide ${current}`}
-          className={`w-full h-100 object-fit ${showHover ? "hover:blur-xs" : "hover:none"}`}
+          className={`w-full h-100 cover ${showHover ? "hover:blur-xs" : "hover:none"}`}
         />
       <button
         onClick={prevSlide}
