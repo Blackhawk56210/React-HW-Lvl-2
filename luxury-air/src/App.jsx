@@ -5,6 +5,8 @@ import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/footer-header/navbar";
 import Footer from "./components/footer-header/footer.jsx";
 import Support from "./pages/support.jsx";
+import Checkout from "./pages/checkout.jsx"
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
          <Route path="/inventory" element={<Inventory />} />
          <Route path="/support" element={<Support />} />
        </Routes>
+       <Checkout />
        <Footer />
      </div>
     </>
