@@ -3,6 +3,9 @@ import sStock from "../data/sStock";
 import mStock from "../data/mStock.js";
 import lStock from "../data/lStock.js";
 
+// Modals ??
+/** import Modal from '../components/support/modal.jsx' */
+
 function Inventory() {
   return (
     <div>
