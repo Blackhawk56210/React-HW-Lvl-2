@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const ImageCarousel = ({ images, showHover, interval = 5000 }) => {
+const ImageCarousel = ({ images, showHover, interval = 9000 }) => {
   const [current, setCurrent] = useState(0);
 
   const nextSlide = () => {

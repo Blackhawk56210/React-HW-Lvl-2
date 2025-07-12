@@ -7,6 +7,7 @@ const sStock = [
     seats: '4 - 6',
     range: "~1,200–1,500 nm",
     linkText: "BOOK",
+    linkHref: "../pages/checkout.jsx",
     text: "A refined balance of innovation and elegance. The Elite II offers whisper-quiet performance and sleek wing-mounted engines, perfect for quick escapes in ultimate comfort.",
     images: [
       "https://i.imgur.com/VSm9Vzn.jpg",

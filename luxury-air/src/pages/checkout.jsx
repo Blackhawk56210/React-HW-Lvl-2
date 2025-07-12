@@ -1,0 +1,1 @@
+// make work with strip copy from burger app
