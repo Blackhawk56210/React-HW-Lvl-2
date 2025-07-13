@@ -51,7 +51,7 @@ const Accordion = () => {
           className="border border-gray-200 rounded-md mb-2 overflow-hidden">
           <button
             onClick={() => toggleAccordion(index)}
-            className="w-full flex justify-between items-center px-4 py-3 bg-gray-100 hover:bg-gray-200 text-left font-medium text-gray-800">
+            className="w-full flex justify-between items-center px-4 py-3 bg-gray-100 hover:bg-gray-300 hover:cursor-pointer text-left font-medium text-gray-800">
             {item.title}
             <span className="text-xl">
               {activeIndex === index ? "−" : "+"}
