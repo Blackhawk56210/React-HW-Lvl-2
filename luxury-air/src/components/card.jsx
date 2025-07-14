@@ -37,11 +37,12 @@ function Card({ title, text, images, size, seats, range, linkText, linkHref }) {
               Range: {range}</p>
           </div>
         </div>
-        <a
+        <button
           href={linkHref}
-          className="inline-block px-4 py-2 bg-amber-600 text-white rounded hover:bg-amber-700 transition">
+          className="inline-block px-4 py-2 bg-amber-600 text-white rounded hover:bg-amber-700 hover:cursor-pointer transition delay-75 duration-200 ease-in-out">
+            {/* mess with to make plane pop up on vlick maybe */}
           {linkText}
-        </a>
+        </button>
       </div>
     </div>
   );
