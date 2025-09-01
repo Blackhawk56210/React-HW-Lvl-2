@@ -11,8 +11,8 @@ function Bio() {
     <div className="flex justify-center">
       <div className="w-full md:w-3/4 px-2 md:px-5 border border-white bg-white/10 rounded-xl">
         <h1 className="text-3xl md:text-5xl font-bold text-white pb-3 md:pb-5">Why ChrisAir</h1>
-        <div className="flex flex-col md:flex-row">
-          <div className="w-full md:w-3/4 text-white text-base md:text-xl p-0 m-auto">
+        <div className="flex flex-col">
+          <div className="w-full text-white text-base md:text-xl p-0 m-auto">
             <p>
               We at ChrisAir© take pride in being a distinguished leader in luxury aviation,
               specializing in the sale and rental of premium air
@@ -37,7 +37,7 @@ function Bio() {
              <span className="italic">you soar above ordinary.</span>
             </p>
           </div>
-          <div className="my-5 md:m-5 w-full md:w-1/2">
+          <div className="my-5 w-full">
             <ImageCarousel images={images} showHover={false} />
           </div>
         </div>

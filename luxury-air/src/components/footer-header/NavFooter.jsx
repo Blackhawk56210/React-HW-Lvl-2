@@ -45,7 +45,7 @@ function Footer() {
           </div>
           <div className="hidden md:block border-1 w-0 h-40 opacity-85"></div>
           <div className="flex flex-col items-center md:items-start">
-            <p className="opacity-75 pb-2 text-color-blue-300 md:pb-5">Socials</p>
+            <p className="opacity-75 pb-2 md:pb-5">Socials</p>
             <div className="flex flex-row pl-0 md:pl-4">
               <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
                 <img

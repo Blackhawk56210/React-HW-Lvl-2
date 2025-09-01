@@ -4,8 +4,12 @@ dotenv.config();
 import express from "express";
 import Stripe from "stripe";
 import cors from "cors";
+<<<<<<< HEAD
 const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 // check key for expiration
+=======
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+>>>>>>> a9bd94d4395a1f6db245464072afc7bab4337187
 const app = express();
 app.use(cors());
 app.use(express.json());
