@@ -1,17 +1,36 @@
 import React, { useState } from 'react';
-// Connect this with smallStock.jsx
+
 const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
 
+  // Responsive modal styles
+  const modalDialogStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100%',
+  };
+
+  const modalContentStyle = {
+    width: '100%',
+    maxWidth: 500,
+    margin: '0 16px',
+    borderRadius: 8,
+    // Mobile-specific
+    '@media (max-width: 600px)': {
+      maxWidth: '100%',
+      margin: 0,
+      borderRadius: 0,
+      minHeight: '100vh',
+    },
+  };
+
   return (
     <>
-      <button
-        className="btn btn-primary"
-        onClick={openModal}
-      >
+      <button className="btn btn-primary" onClick={openModal}>
         Launch Modal
       </button>
 
@@ -30,14 +49,23 @@ const Modal = () => {
         >
           <div
             className="modal-dialog"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              height: '100%',
-            }}
+            style={modalDialogStyle}
           >
-            <div className="modal-content">
+            <div
+              className="modal-content"
+              style={{
+                ...modalContentStyle,
+                // Inline responsive for mobile
+                ...(window.innerWidth <= 600
+                  ? {
+                      maxWidth: '100%',
+                      margin: 0,
+                      borderRadius: 0,
+                      minHeight: '100vh',
+                    }
+                  : {}),
+              }}
+            >
               <div className="modal-header">
                 <h5 className="modal-title">Modal Title</h5>
                 <button
@@ -46,9 +74,7 @@ const Modal = () => {
                   onClick={closeModal}
                 ></button>
               </div>
-              <div className="modal-body">
-                ...
-              </div>
+              <div className="modal-body">...</div>
               <div className="modal-footer">
                 <button
                   type="button"

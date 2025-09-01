@@ -1,12 +1,10 @@
-import "./App.css";
-import Home from "./pages/home.jsx";
-import Inventory from "./pages/Inventory.jsx";
 import { Routes, Route } from "react-router-dom";
-import NavBar from "./components/footer-header/navbar";
-import Footer from "./components/footer-header/footer.jsx";
-import Support from "./pages/support.jsx";
-import Checkout from "./pages/checkout.jsx"
-
+import HomePage from './pages/HomePage';
+import Inventory from './pages/InventoryPage';
+import NavBar from "./components/footer-header/NavBar";
+import Footer from './components/footer-header/NavFooter'
+import Support from './pages/SupportPage';
+import "./App.css";
 
 function App() {
   return (
@@ -14,11 +12,10 @@ function App() {
      <div className="App">
        <NavBar />
        <Routes>
-         <Route path="/" element={<Home />} />
-         <Route path="/inventory" element={<Inventory />} />
+          <Route path="/" element={<HomePage />} />
+         <Route path="/Inventory" element={<Inventory />} />
          <Route path="/support" element={<Support />} />
        </Routes>
-       <Checkout />
        <Footer />
      </div>
     </>

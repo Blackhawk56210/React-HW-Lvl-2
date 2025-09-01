@@ -1,4 +1,4 @@
-import ImageCarousel from "../carosuel";
+import ImageCarousel from "../Carosuel";
 
 const images = [
   "https://st.depositphotos.com/1037987/4845/i/450/depositphotos_48459381-stock-photo-portrait-of-multi-cultural-office.jpg",
@@ -9,10 +9,10 @@ const images = [
 function Bio() {
   return (
     <div className="flex justify-center">
-      <div className="w-3/4 px-5 border border-white bg-white/10 rounded-xl">
-        <h1 className="text-5xl font-bold text-white pb-5">Why ChrisAir</h1>
-        <div className="flex flex-grid-col-2">
-          <div className="w-3/4 text-white text-xl p-0 m-auto">
+      <div className="w-full md:w-3/4 px-2 md:px-5 border border-white bg-white/10 rounded-xl">
+        <h1 className="text-3xl md:text-5xl font-bold text-white pb-3 md:pb-5">Why ChrisAir</h1>
+        <div className="flex flex-col md:flex-row">
+          <div className="w-full md:w-3/4 text-white text-base md:text-xl p-0 m-auto">
             <p>
               We at ChrisAir© take pride in being a distinguished leader in luxury aviation,
               specializing in the sale and rental of premium air
@@ -37,8 +37,8 @@ function Bio() {
              <span className="italic">you soar above ordinary.</span>
             </p>
           </div>
-          <div className="m-5 w-1/2">
-            <ImageCarousel images={images} showHover = {false} />
+          <div className="my-5 md:m-5 w-full md:w-1/2">
+            <ImageCarousel images={images} showHover={false} />
           </div>
         </div>
       </div>

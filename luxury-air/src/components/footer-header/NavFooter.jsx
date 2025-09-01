@@ -1,23 +1,24 @@
+import React from "react";
 import Logo from "../../assets/images/logo-white.png";
 
 function Footer() {
   return (
-    <div className="text-white p-10">
-      <section className="flex justify-center">
-        <div className="w-100">
-          <img src={Logo} />
+    <div className="text-white p-6 md:p-10">
+      <section className="flex flex-col md:flex-row items-center md:justify-center">
+        <div className="w-32 md:w-100 mb-6 md:mb-0 md:mr-10 flex-shrink-0 flex justify-center md:justify-start">
+          <img src={Logo} alt="ChrisAir Logo" className="w-24 md:w-auto" />
         </div>
-        <div className="flex">
-          <div className="mr-5">
-            <div className="opacity-75 pb-5">Call</div>
+        <div className="flex flex-col md:flex-row w-full md:w-auto items-center md:items-start">
+          <div className="mb-6 md:mb-0 md:mr-5 flex flex-col items-center md:items-start">
+            <div className="opacity-75 pb-2 md:pb-5">Call</div>
             <div className="body-caps">
               <a href="tel:+1850912345678">+1 (850) 9-CHRISAIR</a>
             </div>
           </div>
-          <div className="border-1 w-0 h-40 opacity-85"></div>
-          <div className="m-3">
-            <p className="opacity-75 pb-5">E-Mail</p>
-            <div className="body-caps ml-2">
+          <div className="hidden md:block border-1 w-0 h-40 opacity-85"></div>
+          <div className="mb-6 md:mb-0 md:m-3 flex flex-col items-center md:items-start">
+            <p className="opacity-75 pb-2 md:pb-5">E-Mail</p>
+            <div className="body-caps ml-0 md:ml-2">
               <ul>
                 <li>
                   <div>
@@ -42,44 +43,48 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="border-1 w-0 h-40 opacity-85"></div>
-          <div>
-            <p className="opacity-75 pb-5">Socials</p>
-            <div className="flex flex-row pl-4">
+          <div className="hidden md:block border-1 w-0 h-40 opacity-85"></div>
+          <div className="flex flex-col items-center md:items-start">
+            <p className="opacity-75 pb-2 text-color-blue-300 md:pb-5">Socials</p>
+            <div className="flex flex-row pl-0 md:pl-4">
               <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/6761b8127be8a1dfe57738b5_tiktok.svg"
                   loading="lazy"
-                  className="invert w-4 mr-2"
+                  className="invert w-6 md:w-4 mr-2"
+                  alt="TikTok"
                 />
               </a>
               <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/6761b82934c945ef8749d427_linkedin-in.svg"
                   loading="lazy"
-                  className="invert w-4 mr-2"
+                  className="invert w-6 md:w-4 mr-2"
+                  alt="LinkedIn"
                 />
               </a>
               <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/6761b83b63af49d9e80726ae_instagram.svg"
                   loading="lazy"
-                  className="invert w-4 mr-2"
+                  className="invert w-6 md:w-4 mr-2"
+                  alt="Instagram"
                 />
               </a>
               <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/6761b86d767a974557d32270_x-twitter-brands-solid.svg"
                   loading="lazy"
-                  className="invert w-5 mr-2"
+                  className="invert w-7 md:w-5 mr-2"
+                  alt="Twitter"
                 />
               </a>
             </div>
           </div>
         </div>
       </section>
-      <footer className="bg-black text-white text-xs p-5">
-        <p>
+      <footer className="bg-black text-white text-xs p-3 md:p-5 mt-6">
+        <p className="mb-4">
           © 2025 ChrisAir©. All rights reserved. ChrisAir© and its logo are
           trademarks or registered trademarks of ChrisAir Aviation LLC.
           Unauthorized use is strictly prohibited. Privacy Policy Your privacy
@@ -102,16 +107,20 @@ function Footer() {
           right to opt-out of the sale of your personal information. Learn more
           about your rights <a href="legal stuff ">here</a>.
         </p>
-        <div className="inline-block p-3 w-full">
-          <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
+        <div className="flex flex-col md:flex-row items-center md:items-start p-3 w-full">
+          <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer" className="mb-2 hover: md:mb-0 md:mr-4">
             <img src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/66241a17c99be7ddc820a229_apple.avif" 
-            loading="lazy"
-            className="inline-block h-15 p-2"/>
+              loading="lazy"
+              className="inline-block h-12 md:h-15 p-2"
+              alt="Apple Store"
+            />
           </a>
           <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn.prod.website-files.com/661ecef2c676ea9e27b05705/66241a17885ec39e1d213810_google.avif" 
-            loading="lazy"
-            className="inline-block h-15 p-2"/>
+              loading="lazy"
+              className="inline-block h-12 md:h-15 p-2"
+              alt="Google Play"
+            />
           </a>
         </div>
       </footer>
